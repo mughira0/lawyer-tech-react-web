@@ -1,8 +1,10 @@
 import React from "react";
 import Footer from "../../../components/Footer";
 import ScrollToTopButton from "../../../components/ScrollToTop";
-import { texture } from "../../../constants/imagePath";
+import { background } from "../../../constants/imagePath";
 import HomeIconSection from "../../../sections/HomeIconSection";
+import SliderSection from "../../../sections/SliderSection";
+import ClientSection from "../../../sections/clientSection";
 import HomeHeroSection from "../../../sections/homeHeroSection";
 import HomePackageSection from "../../../sections/homePackagesSection";
 import Hero from "../../../sections/mainHero";
@@ -12,12 +14,14 @@ function Home() {
   return (
     <main className={classes.main}>
       <div className={classes.background}>
-        <img src={texture} />
+        <img src={background} />
       </div>
       <Hero />
-      <HomeHeroSection />
       <HomeIconSection />
+      <SliderSection />
+      <HomeHeroSection />
       <HomePackageSection />
+      <ClientSection />
       <Footer />
       <ScrollToTopButton />
     </main>

@@ -27,7 +27,7 @@
 .pageMain::after {
   content: "";
   /* background: #000000d1; */
-  background-color:black;
+  background-color: black;
   /* background-color: rgb(32, 32, 32); */
   position: absolute;
   width: 100%;
@@ -105,7 +105,7 @@
 }
 .footerBottom p {
   margin-bottom: 0;
-  color: var(--white-color);
+  color: var(--heading-color);
   font-size: 16px;
   font-family: "poppin-medium";
 }
@@ -120,7 +120,7 @@
 .logoMian {
   width: 250px;
   height: 60px;
-  color:white;
+  color: white;
 }
 .logoMian img {
   width: 100%;
@@ -133,21 +133,28 @@
 }
 .sideLogoMain h3 {
   margin-bottom: 0;
-  color: var(--black-color);
+  color: var(--heading-color);
+
   font-size: 23px;
   font-family: "poppin-medium";
 }
+.footer * {
+  color: var(--white-color) !important;
+}
 .sideLogoMain h3 span {
-  color: var(--main-color);
+  color: var(--heading-color);
+
   font-size: 20px;
 }
 .colTwoMain h5 {
-  color: var(--main-color);
+  color: var(--heading-color);
+
   font-family: "poppin-medium";
   font-size: 20px;
 }
 .colThreeMain h5 {
-  color: var(--main-color);
+  color: var(--heading-color);
+
   font-family: "poppin-medium";
   font-size: 20px;
 }
@@ -165,11 +172,12 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  color: var(--white-color);
+  color: var(--heading-color);
+
   cursor: pointer;
 }
 .socialIcons a {
-  color: var(--white-color);
+  color: var(--heading-color);
 }
 @media screen and (max-width: 1024px) {
   .imageMain {

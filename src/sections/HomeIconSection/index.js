@@ -75,7 +75,7 @@ const HomeIconSection = () => {
 };
 
 export default HomeIconSection;
-const AnimatedSection = ({ children, direction = "up" }) => {
+export const AnimatedSection = ({ children, direction = "up" }) => {
   const controls = useAnimation();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, amount: 0.3 });
@@ -103,6 +103,7 @@ const AnimatedSection = ({ children, direction = "up" }) => {
   return (
     <motion.section
       ref={ref}
+      className={styles.main}
       initial="hidden"
       animate={controls}
       variants={variants}

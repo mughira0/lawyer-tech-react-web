@@ -6,6 +6,9 @@
   align-items: flex-start;
   gap: 30px;
 }
+.heroSection {
+  background-color: white;
+}
 .buttonContainer {
   display: flex;
   gap: 20px;

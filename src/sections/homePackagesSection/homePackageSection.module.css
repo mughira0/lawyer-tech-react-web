@@ -2,7 +2,7 @@
   padding-block: 80px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url(../../assets/images/texture.jfif);
+  background-color: white;
 }
 .content {
   display: flex;
